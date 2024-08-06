@@ -43,7 +43,7 @@ jobs:
         wget https://repo.maven.apache.org/maven2/io/debezium/debezium-core/1.7.0.Final/debezium-core-1.7.0.Final.jar
 
     - name: Log into registry
-      run: echo "${{ secrets.release_docker_hub }}" | docker login -u ${{ secrets.actor_docker_hub }} --password-stdin
+      run: echo "$sathwikasj" | docker login -u $Koragajja@311 --password-stdin
 
     - name: Create Docker
       run: |
