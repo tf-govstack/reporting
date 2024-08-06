@@ -103,7 +103,6 @@ jobs:
 
     - name: Log into registry
       run: echo "${{ secrets.release_docker_hub }}" | docker login -u ${{ secrets.actor_docker_hub }} --password-stdin
-
     - name: Create Docker
       run: |
         NAMESPACE=${{ secrets.dev_namespace_docker_hub }}
