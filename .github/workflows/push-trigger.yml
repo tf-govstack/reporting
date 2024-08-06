@@ -9,6 +9,7 @@ on:
       - master
       - 1.*
       - develop
+      - MOS-3162
     paths:
       - 'build/**'
 jobs:
